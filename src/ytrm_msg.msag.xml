@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>YTRM_MSG</ARBGB>
+    <MASTERLANG>F</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Veuillez remplir tous les champs obligatoires (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Aucune donnée sélectionnée selon les critères de sélection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Le paramètre obligatoire nom de l&apos;objet est vide</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Erreur lors de l&apos;obtention des données de configuration du système</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Aucune entrée trouvée pour le système &amp;1/OT Type : &amp;2 dans YBCT_CUSTOM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Veuillez sélectionner un OT pour lancer le contrôle de syntaxe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Veuillez ne sélectionner qu#un seul OT pour lancer le contrôle de syntaxe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Veuillez sélectionner deux OTs pour lancer la fusion des ordres</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Veuillez sélectionner un OTs en plus pour lancer la fusion des ordres</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Veuillez ne sélectionner que deux OTs pour lancer la fusion des ordres</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Veuillez sélec au moins un ordre de transport pour exécuter l&apos;analyse.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Attention : Seuls les OT de Workbench peuvent être analysés</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>OT de Cust. ne peuvent être analysés (Sél. seulement des OT de Workbench)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Tous les OT sélectionnés ne contiennent que des objets non pertinents</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Les Commentaires pour l&apos;OT &amp;1 mis à jour avec succès</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Fusion des ordres annulée</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Fusion des ordres réussie</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Erreur lors de la création du fichier Excel</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Export des données sous Excel annulé</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Erreur lors de l&apos;affichage de l&apos;aide à l&apos;application</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Les ordres de transport sont mis à jour avec succès</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Certains OT n&apos;ont pas été mis à jour</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Tous les OT ne sont pas mis à jour</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Aucune modification effectuée &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Veuillez sélectionner au moins un OT pour modifier le propriétaire</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Action annulée. Veuillez sélectionner au moins un OT non libéré</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Aucune requête de transport pertinente trouvée pour l&apos;environement &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Séquence des OT pour le système &amp;1 exécutée avec succès</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>OT déjà libéré dans le système source</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>OT non libéré dans le système cible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Annulation de la séquence de transport des OT vers le système &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Séquencement des ordres de transports annulé.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Changement du propriétaire de la requête de transport annulé.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>F</SPRSL>
+     <ARBGB>YTRM_MSG</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Export des OT exécuté avec succès</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

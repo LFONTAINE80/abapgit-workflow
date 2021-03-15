@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>Y_CGI_TRM_MIDDLE_SCREEN</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00040</TXTLINES>
+      <DOKSTATE>R</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Y_CGI_TRM_MIDDLE_SCREEN</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZU&gt;Middle screen (Transport Request Statutes ALV)&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This ALV displays the differents statutes with the date and time of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transport requests selected for each system in the SAP landscape.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Moreover, it displays also several additional information as:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Transport request information : Description, owner (Id,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>firstname, lastname), comment text.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - SHERLOCK status : If this field is blank, SHERLOCK isn&apos;t yet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processed for the transport request</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>After ALV displaying, application toolbar shows additional buttons.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>These buttons can be used to realize actions on Transport request in TRS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ALV ( for more information see the corresponding button documentation).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Regarding TRS ALV toolbar, you can use the following functionalities :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Display TR detail using icon @16@ to show a particular ALV</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>line in foreground</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Refresh the ALV data using icon @42@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Manage column sorts using icons @3E@ and @3F@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Search a string chain in ALV data using icons @13@ and @4E@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Set column filters using icon @4G@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Manage ALV layout options using icon @LZ@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Regarding Status icons, 5 values can be displayed :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - @EB@ : Only for Development system. Displayed when the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transport request isn&apos;t yet released</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - @0A@ : For all systems. Displayed when transport request</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>importation or exportation step is processed with errors</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - @09@ : For all systems. Displayed when transport request</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>importation or exportation step is processed with warnings</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - @08@ : For all systems. Displayed when transport request</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>importation or exportation step is processed successfully</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Empty cell : Not relevant for Development system. Displayed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>when the transport request import step isn&apos;t yet done.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Regarding the TR comment text cell, 2 values can be displayed :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - @0P@ : A comment exists for the corresponding transport</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>request</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Empty cell : No comment exists</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Regarding the Sherlock statutes cell, 3 values can be displayed :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - @02@ : Sherlock checks are processed with errors</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - @01@ : Sherlock checks are processed successfully</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Empty cell : Sherlock checks aren&apos;t yet processed for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transport request</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE> &lt;DS:TX.Y_CGI_TRM_APPLICATION_HELP&gt;Return to documentation&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>
