@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function group for CGI TRM</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LYTRMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLYTRM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Y_BC_CONSTANTS_GET_DATA</FUNCNAME>
+     <SHORT_TEXT>Get Data from constant table management</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IW_OBJNM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EU_I_NAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IW_CONST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YCONSNAME</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EWT_VALUES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YRSRANGE_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EWT_ALL_VALUES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YBCT_CONSTANTS_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>OBJNM_NOT_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_ENTRY_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IW_OBJNM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Long Workbench name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IW_CONST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Constant name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EWT_VALUES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for RSRANGE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EWT_ALL_VALUES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>test</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJNM_NOT_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Object name not filled</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_ENTRY_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Entry not found</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Y_BC_CUSTOMS_GET_DATA</FUNCNAME>
+     <SHORT_TEXT>Get Data from custom table YBCT_CUSTOM</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IW_KEY1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YKEY1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IW_KEY2</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YKEY2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IW_KEY3</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YKEY3</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IW_KEY4</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YKEY4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IW_KEY5</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YKEY5</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IW_CHECK_STAR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EWS_YBCT_CUSTOM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>YBCT_CUSTOM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>KEY_NOT_FILLED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_DATA_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>SINGLE_ACCESS_FAILED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IW_KEY1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Key 1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IW_KEY2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Key 2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IW_KEY3</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Key 3</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IW_KEY4</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Key 4</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IW_KEY5</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Key 5</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IW_CHECK_STAR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>General Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EWS_YBCT_CUSTOM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>test</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>KEY_NOT_FILLED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Key not filled</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DATA_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No data found</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SINGLE_ACCESS_FAILED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Single access failed</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
