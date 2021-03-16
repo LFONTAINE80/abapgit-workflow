@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>Y_CGI_TRM_APPLICATION_HELP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00080</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Y_CGI_TRM_APPLICATION_HELP</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;CGI Transport request Manager - Application Help&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Welcome to the CGI TRM application help. Here, you can find all</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information to use the application. This tool is a specific solution</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>developped by CGI for our clients who don&apos;t want to deploy the SAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>standard tool, called Solution Manager, in order to check and ensure</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>thetransport request management.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This reporting tool is used to help the sequencing of SAP transport</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>requests. Thanks to a user-friendly GUI, this program ensures a better</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>awareness with our partners while providing an innovative and a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>collaborative tool.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This efficient and robust solution is based on SAP standard information</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contained in the system. These information are used by SAP to manage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allmodifications done and to deploy them from Development system until</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Production system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This tool contains 3 main blocks :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;1 - Selection-Screen (Top screen) :&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This is the first screen displayed when you call the transaction</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;YTRM&quot;.It will be used to define selection criteria to display</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Transportrequest wished. Two selection modes are available :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>            - By Transport request number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>            - By Transport request Description</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>After setting criteria, click on @15@ Execute button to display</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transport request information.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_TOP_SCREEN&gt; Get additional information&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;CGI Transport request Manager - Application Help&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Welcome to the CGI TRM application help. Here, you can find all</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information to use the application. This tool is a specific solution</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>developped by CGI for our clients who don&apos;t want to deploy the SAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>standard tool, called Solution Manager, in order to check and ensure</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>thetransport request management.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This reporting tool is used to help the sequencing of SAP transport</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>requests. Thanks to a user-friendly GUI, this program ensures a better</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>awareness with our partners while providing an innovative and a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>collaborative tool.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This efficient and robust solution is based on SAP standard information</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contained in the system. These information are used by SAP to manage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allmodifications done and to deploy them from Development system until</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Production system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;2 - ALV - Transport Request Statutes (Middle screen) : &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This ALV displays the differents statutes with the date and time of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transport requests selected for each system of the SAP client landscape.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Moreover, it displays also several additional information as:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>           - &lt;ZH&gt;Transport request information :&lt;/&gt; Description, owner,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>commenttext.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>           - &lt;ZH&gt;SHERLOCK status :&lt;/&gt; If this field is blank, SHERLOCK</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>isn&apos;t yet processed for the transport request</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_MIDDLE_SCREEN&gt; Get additional information&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This ALV is an interactive ALV. Indeed you process Tool functionality</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>using the following Toolbar button :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>@38@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_CHECK_TR_SYNTAX&gt; Check TR Syntax&lt;/&gt;              @40@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_MERGE_TR&gt; Merge TR&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>@4F@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_CHANGE_TR_OWNER&gt; Change TR Owner&lt;/&gt;            @0O@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_ADD_COMMENT&gt; Add TR Comment text&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>@J2@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_EXPORT_EXCEL&gt; Export data to excel file&lt;/&gt;   @HV@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:TX.Y_CGI_TRM_SEQUENCE_TR_LIST&gt; Sequence TR List&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>@16@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:TX.Y_CGI_TRM_ANALYSE_TR_CONTENT&gt; Analyze TR Content&lt;/&gt;         @0S@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:TX.Y_CGI_TRM_APPLICATION_HELP&gt; Application Help&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Or also click on some cells of this ALV :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - All Transport request statutes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Transport request number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - Transport request comment text (only if the following icon</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is filled @0P@)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_HOTSPOT_AREAS&gt; Get more information about interactive</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>actions&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;3 - ALV - Transport Request Object Analyzer (Bottom screen) : &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This ALV is generated and displayed after clicking on @16@</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:TX.Y_CGI_TRM_ANALYSE_TR_CONTENT&gt; Analyze TR Content&lt;/&gt; button.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The aim of this last ALV is to analyzed all objects included in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transport requests selected in the TRS ALV and display all versions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>generated with a descending sort on creation date (ie First line is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>equal to the last object version).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Only Workbench transport request can be analyzed by the tool. Indeed,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customizing ones aren&apos;t managed by version.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Unlike to TRS ALV, Toolbar functionalities aren&apos;t available with the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>TROA ALV. Only interactive actions on ALV cell are kept.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_BOTTOM_SCREEN&gt; Get additional information&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

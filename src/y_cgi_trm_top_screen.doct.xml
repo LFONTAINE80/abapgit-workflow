@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>Y_CGI_TRM_TOP_SCREEN</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00022</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Y_CGI_TRM_TOP_SCREEN</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZU&gt;Selection-Screen (Top screen) :&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This is the first screen displayed when you call the transaction &quot;YTRM&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>It will be used to define selection criteria to display Transport</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>request wished. Two selection modes are available :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - By Transport request number (Multiple values allowed)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          - By Transport request Description (Single value only) : It&apos;s</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>not necessary to set the complete transport request description (You can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>only set a part of it)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Watch out : When you choose a mode, the corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Select-option/parameters is a mandatory field.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>An additional block is also available to add more restrictions (not</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mandatory) during the data selection :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          -  Transport Request Owner : Only Transport request which are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned to the user will be displayed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>          -  Transport Request Object : Only Transport request which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contains the objects set will be displayed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>After filling criteria, click on @15@ Execute button to display</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transport request information.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>After Tcode execution, the toolbar only shows the @0S@ Application Help</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>button. All other functionalities will be displayed after program</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>execution.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE> &lt;DS:TX.Y_CGI_TRM_APPLICATION_HELP&gt;Return to documentation&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOCT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DOC>
+    <item>
+     <DOKIL>
+      <ID>TX</ID>
+      <OBJECT>Y_CGI_TRM_CHANGE_TR_OWNER</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00010</TXTLINES>
+      <DOKSTATE>R</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Y_CGI_TRM_CHANGE_TR_OWNER</TDNAME>
+      <TDID>TX</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;&lt;ZU&gt;Change tr owner&lt;/&gt;&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This button allows to replace the transport request owner by the current</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>user.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>To realize this action you have to select one line only . You can only</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>modify the Transport Request owner if the OT has not been released yet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>If the TR has already been released, an information message will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>appear in order to indicate that no change done. When all conditions are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gathered, a pop-up ask you to confirm your choice. Then the Transport</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>request owner will be replace by the current user.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;DS:TX.Y_CGI_TRM_APPLICATION_HELP&gt;Return to documentation&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </DOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>
